@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1001,
+    "title": "Login Issues - Can’t Access Account",
+    "description": "Customer is unable to log into their account. They’ve tried multiple times but password keeps failing.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-15"
+  },
+  {
+    "id": 1002,
+    "title": "Payment Failed - Card Declined",
+    "description": "Customer attempting to pay via Visa ending 1234 but the payment fails. Suggests contacting their bank.",
+    "customer": "Sarah Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-18"
+  },
+  {
+    "id": 1003,
+    "title": "Unable to Download Invoice",
+    "description": "Customer cannot download their January invoice from the billing section. Download button not responsive.",
+    "customer": "Michael Brown",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-01-20"
+  },
+  {
+    "id": 1004,
+    "title": "App Crash on Launch",
+    "description": "Customer reports that the mobile app crashes immediately when opening after update 2.3.0.",
+    "customer": "Emma Davis",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-21"
+  },
+  {
+    "id": 1005,
+    "title": "Two-Factor Authentication Issue",
+    "description": "Customer not receiving authentication codes for login verification on registered phone number.",
+    "customer": "James Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-01-22"
+  },
+  {
+    "id": 1006,
+    "title": "Subscription Auto-Renewal",
+    "description": "Customer subscription auto-renewed without prior notification and they want to cancel.",
+    "customer": "Lisa Thomas",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2025-01-25"
+  },
+  {
+    "id": 1007,
+    "title": "Incorrect Billing Address",
+    "description": "Customer’s billing address shows as different city. They updated it but still displays the old one.",
+    "customer": "Emily Clark",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-01-26"
+  },
+  {
+    "id": 1008,
+    "title": "Refund Not Processed",
+    "description": "Customer requested a refund two weeks ago but has not received the amount yet.",
+    "customer": "Sophia Taylor",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2025-01-28"
+  },
+  {
+    "id": 1009,
+    "title": "Unable to Update Profile Picture",
+    "description": "Customer tried to upload a new profile picture but it does not save.",
+    "customer": "Oscar Martinez",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-02-01"
+  },
+  {
+    "id": 1010,
+    "title": "Missing Order Confirmation Email",
+    "description": "Customer placed an order but didn’t receive a confirmation email. Checked spam folder too.",
+    "customer": "Ava Wilson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-02-02"
+  },
+  {
+    "id": 1011,
+    "title": "Slow Website Loading",
+    "description": "Customer reports website pages load very slowly during checkout process.",
+    "customer": "David Lopez",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2025-02-03"
+  },
+  {
+    "id": 1012,
+    "title": "Discount Code Not Working",
+    "description": "Customer tried applying a valid discount code but it shows invalid error.",
+    "customer": "Grace Miller",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-02-05"
+  },
+  {
+    "id": 1013,
+    "title": "Account Locked",
+    "description": "Customer’s account locked due to multiple failed login attempts. Needs unlocking.",
+    "customer": "Henry Walker",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-02-06"
+  },
+  {
+    "id": 1014,
+    "title": "Duplicate Charges",
+    "description": "Customer was charged twice for the same subscription renewal.",
+    "customer": "Mia Robinson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2025-02-07"
+  },
+  {
+    "id": 1015,
+    "title": "Notification Settings Not Saving",
+    "description": "Customer updated notification preferences but changes don’t persist after saving.",
+    "customer": "Daniel Harris",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2025-02-08"
+  }
+]
