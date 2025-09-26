@@ -5,6 +5,7 @@ import Counter from "./counter/Counter";
 //import TaskContainer from "./component/TaskContainer/TaskContainer";
 import TicketContainer from "./TicketContainer/TicketContainer";
 import TaskContainer from "./TaskContainer/TaskContainer";
+import { toast } from "react-toastify";
 
 const IshuHandle = ({ ticketData }) => {
   const [ticketStatus, setTicketStatus] = useState(ticketData);
@@ -19,18 +20,20 @@ const IshuHandle = ({ ticketData }) => {
     );
     //console.log(remainingData);
     setTicketStatus([...remainingData, card]);
+    toast("Task Added");
   };
 
   const handelComplete = (task) => {
-    console.log("complete clicked", task);
+    //console.log("complete clicked", task);
     if (task.status == "In-Progress") {
       task.status = "Resolved";
     }
     const remainingData = ticketStatus.filter(
       (ticket) => ticket.id !== task.id
     );
-    console.log(remainingData);
+    //console.log(remainingData);
     setTicketStatus([...remainingData, task]);
+    toast("Task Resolved");
   };
   return (
     <div>

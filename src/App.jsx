@@ -1,7 +1,7 @@
 import "./App.css";
 
 import Navbar from "./component/Navbar/Navbar";
-
+import { ToastContainer } from "react-toastify";
 import IshuHandle from "./component/IshuHandle";
 import { use } from "react";
 import Footer from "./component/Footer/Footer";
@@ -23,6 +23,7 @@ function App() {
       <div className="">
         <Footer></Footer>
       </div>
+      <ToastContainer></ToastContainer>
     </>
   );
 }

@@ -81,15 +81,6 @@
     "createdAt": "2025-02-01"
   },
   {
-    "id": 1010,
-    "title": "Missing Order Confirmation Email",
-    "description": "Customer placed an order but didn’t receive a confirmation email. Checked spam folder too.",
-    "customer": "Ava Wilson",
-    "priority": "Medium",
-    "status": "Open",
-    "createdAt": "2025-02-02"
-  },
-  {
     "id": 1011,
     "title": "Slow Website Loading",
     "description": "Customer reports website pages load very slowly during checkout process.",

@@ -5,8 +5,8 @@ const TaskStatus = ({ ticketStatus, handelComplete }) => {
   const taskStatusData = ticketStatus.filter(
     (ticket) => ticket.status == "In-Progress"
   );
-  const length = taskStatusData.length;
-  console.log(length);
+
+  //console.log(length);
 
   return (
     <>
