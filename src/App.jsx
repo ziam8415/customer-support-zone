@@ -4,6 +4,7 @@ import Navbar from "./component/Navbar/Navbar";
 
 import IshuHandle from "./component/IshuHandle";
 import { use } from "react";
+import Footer from "./component/Footer/Footer";
 
 const ticketPromise = fetch("/Data.json").then((res) => res.json());
 
@@ -18,6 +19,9 @@ function App() {
           <Navbar></Navbar>
           <IshuHandle ticketData={ticketData}></IshuHandle>
         </div>
+      </div>
+      <div className="">
+        <Footer></Footer>
       </div>
     </>
   );
