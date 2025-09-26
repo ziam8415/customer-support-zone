@@ -5,7 +5,7 @@ const TicketContainer = ({ ticketData, handelCardClick }) => {
   const filteredData = ticketData.filter((tic) => tic.status !== "Resolved");
   //console.log(filteredData);
   return (
-    <div className="grid grid-cols-2">
+    <div className="md:grid grid-cols-2">
       {filteredData.map((ticket) => (
         <Card
           handelCardClick={handelCardClick}
