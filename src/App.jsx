@@ -13,7 +13,7 @@ function App() {
   const ticketData = use(ticketPromise);
   return (
     <>
-      <div className="bg-[#f4eeee]">
+      <div className="bg-[#f5f5f5]">
         <div className="max-w-[1200px] mx-auto  text-black">
           <Navbar></Navbar>
           <IshuHandle ticketData={ticketData}></IshuHandle>

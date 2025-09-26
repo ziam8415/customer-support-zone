@@ -22,7 +22,7 @@ const Card = ({ ticket, handelCardClick }) => {
           <span>
             <FaCircle />
           </span>
-          <span>{ticket.status}</span>
+          <span className="text-xs">{ticket.status}</span>
         </p>
       </div>
       <p className="text-[#627382] text-xs py-1.5">{ticket.description}</p>

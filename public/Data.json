@@ -1,7 +1,7 @@
 [
   {
     "id": 1001,
-    "title": "Login Issues - Can’t Access Account",
+    "title": "Login Issues - Can’t Access",
     "description": "Customer is unable to log into their account. They’ve tried multiple times but password keeps failing.",
     "customer": "John Smith",
     "priority": "High",

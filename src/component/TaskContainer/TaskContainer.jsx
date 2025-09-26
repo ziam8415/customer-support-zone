@@ -15,9 +15,11 @@ const TaskContainer = ({ ticketStatus, handelComplete }) => {
         ticketStatus={ticketStatus}
       ></TaskStatus>
       <h1 className="text-2xl font-bold pt-5">Resolved Task</h1>
-      {resolvedData.map((data) => (
-        <ResolvedTask data={data}></ResolvedTask>
-      ))}
+      {resolvedData.length == 0 ? (
+        <h1 className="text-[#627382] text-xl pt-3">No resolved tasks yet.</h1>
+      ) : (
+        resolvedData.map((data) => <ResolvedTask data={data}></ResolvedTask>)
+      )}
     </div>
   );
 };

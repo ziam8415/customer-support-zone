@@ -36,7 +36,7 @@ const IshuHandle = ({ ticketData }) => {
     <div>
       <Counter ticketData={ticketData}></Counter>
 
-      <div className="grid grid-cols-3 gap-3 pt-10">
+      <div className="grid grid-cols-3 gap-3 pt-10 pb-10">
         <div className="col-span-2">
           <h1 className="text-2xl font-bold pl-2">Customer Tickets</h1>
           <Suspense>
