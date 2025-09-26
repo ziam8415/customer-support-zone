@@ -10,7 +10,6 @@ const Counter = ({ ticketData }) => {
     (ticket) => ticket.status == "Resolved"
   );
 
-  console.log(resolvedData);
   return (
     <div className="flex p-4 gap-3 text-center">
       <div className="border-2 border-white flex-1 relative bg-gradient-to-r from-[#632ee3] to-[#9c62f2] rounded-2xl  flex p-4 md:p-0  text-white ">

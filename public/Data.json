@@ -50,7 +50,7 @@
     "description": "Customer subscription auto-renewed without prior notification and they want to cancel.",
     "customer": "Lisa Thomas",
     "priority": "Medium",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2025-01-25"
   },
   {
@@ -59,7 +59,7 @@
     "description": "Customer’s billing address shows as different city. They updated it but still displays the old one.",
     "customer": "Emily Clark",
     "priority": "Low",
-    "status": "Resolved",
+    "status": "Open",
     "createdAt": "2025-01-26"
   },
   {
@@ -68,7 +68,7 @@
     "description": "Customer requested a refund two weeks ago but has not received the amount yet.",
     "customer": "Sophia Taylor",
     "priority": "Medium",
-    "status": "In-Progress",
+    "status": "Open",
     "createdAt": "2025-01-28"
   },
   {
