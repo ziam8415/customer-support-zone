@@ -1,4 +1,5 @@
 import Card from "./Card";
+import { toast } from "react-toastify";
 
 const TicketContainer = ({ ticketData, handelCardClick }) => {
   //console.log(ticketData);
@@ -7,9 +8,12 @@ const TicketContainer = ({ ticketData, handelCardClick }) => {
   return (
     <>
       {filteredData.length == 0 ? (
-        <h1 className="pt-10 text-2xl font-bold text-center">
-          All ticket are resolved
-        </h1>
+        (toast("All ticket are resolved"),
+        (
+          <h1 className="pt-10 pb-5 text-2xl font-bold text-center text-gray-500">
+            All ticket are resolved
+          </h1>
+        ))
       ) : (
         <div className="md:grid grid-cols-2">
           {filteredData.map((ticket) => (
